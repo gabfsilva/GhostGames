@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GhostGames</title>
+    <link rel="icon" href="https://i.postimg.cc/cCXmtX1H/ghost-1.gif" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <!-- --------------- Navigation Bar -------------  -->
+    <header>
+      <nav class="navbar">
+        <img
+          class="logo"
+          src="https://i.postimg.cc/cCXmtX1H/ghost-1.gif"
+          alt="Logo"
+        />
+        <ul>
+          <li class="home">
+            <a class="underline" href="index.html">HOME</a>
+          </li>
+          <li class="about"><a class="underline" href="">CREATORS</a></li>
+          <li class="AboutUs"><a class="underline" href="">ABOUT US</a></li>
+        </ul>
+        <div style="display: flex">
+          <form class="searchbar">
+            <input
+              class="barrasearch"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+
+          <div class="user">
+            <a href="login.html">LOGIN / SIGN UP</a>
+            <img
+              src="https://i.postimg.cc/wBcMKDM1/user-00000.png"
+              width="70"
+              height="40"
+              alt="imagem do user"
+            />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- --------------- Navigation Bar -------------  -->
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <a href="pit.html"
+          ><img
+            id="gifpitgame"
+            src="https://i.postimg.cc/nhFDqKFH/PITGAME.png"
+            width="800px"
+            height="500px"
+          />
+        </a>
+      </div>
+
+      <a href="heart.html"><div class="mySlides fade">
+        <img
+          id="gifshootingheart"
+          src="https://i.postimg.cc/pXTv8yww/shootingheart.png"
+          width="800px"
+          height="500px"
+        />
+      </div>
+      </a>
+      <a href="sok.html">
+      <div class="mySlides fade">
+        <img
+          id="gifsokoban"
+          src="https://i.postimg.cc/FzJ0YhVw/skoban.png"
+          width="800px"
+            height="500px"
+        />
+      </div>
+    </a>
+    <a href="twin.html">
+      <div class="mySlides fade">
+        <img
+          id="giftwin"
+          src="https://i.postimg.cc/zXkPwGQ6/twinpieces.png"
+          width="800px"
+            height="500px"
+        />
+      </div>
+    </a>
+
+      <botton
+        ><a class="prev" onclick="plusSlides(-1)"
+          ><img
+            class="previ"
+            src="https://i.postimg.cc/ctnHYcgB/setaescuraesquerda.png"
+            width="100px"
+            height="100px"
+            alt="" /></a
+      ></botton>
+
+      <botton
+        ><a class="next" onclick="plusSlides(1)"
+          ><img
+            class="next1"
+            src="https://i.postimg.cc/0M3jb4QN/setaescuradireita.png"
+            width="100px"
+            height="100px"
+            alt="" /></a
+      ></botton>
+
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+      <script type="text/javascript" src="main.js"></script>
+    </div>
+
+    <main class="maindo"></main>
+
+    <footer class="footer">
+      <div class="useful">
+        <p class="info">Useful Links</p>
+        <p class="info">About</p>
+        <p class="info">Contact</p>
+      </div>
+      <div class="address">
+        <p style="margin-top: 3px">Address</p>
+        <a href="https://goo.gl/maps/xcRQv1Fox3qRgSZX9" target="_blank"
+          ><p>
+            Av. Chagas Ferreira, 240 - <br />
+            Passarinho, <br />
+            Recife - PE, 52165-450
+          </p></a
+        >
+      </div>
+      <div class="social">
+        <p class="">Contact</p>
+        <a href="">
+          <img
+            class="icon insta"
+            src="https://i.postimg.cc/t1PGZm3n/87390.png"
+            width="30px"
+            height="30px"
+            alt=""
+          />
+        </a>
+        <a href="">
+          <img
+            class="icon twitter"
+            src="https://i.postimg.cc/1nQhpcBC/Twitter-logo.png"
+            width="30px"
+            height="25px"
+            alt=""
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto+Mono:wght@300&display=swap");
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-image: url("https://i.postimg.cc/sxY2JQ63/Background-maior.png");
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.nomelogo {
+  margin: 50px 0;
+  padding-right: 45px;
+}
+
+form.groove {
+  border-style: groove;
+  border-color: #b05dff;
+  width: 350px;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.inputcontainer{
+
+	padding	: 10px 0px;
+}
+
+
+.inputlabel {
+  left: 80px;
+  top: 76px;
+  color: #b86cff;
+}
+
+::placeholder {
+  color: #5c495e;
+}
+
+.inputbar {
+  background-color: #b86cff00;
+  border: 2px solid #7a00ec;
+  border-radius: 15px;
+  width: 140px;
+  height: 40px;
+  color: #b86cff;
+  padding-left: 10px;
+}
+
+.inputbar:focus {
+  border-color: #b86cff;
+  outline: none;
+}
+
+.submit {
+  padding: 3px 10px;
+  border: 2px solid #7a00ec;
+  border-radius: 14px;
+  color: #b86cff;
+  margin-left: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #b86cff;
+}
+
+a:visited {
+  color: #b86cff;
+}
+
+a:active {
+  color: #cb94ff;
+}
+
+a:hover {
+  color: #cb94ff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto+Mono:wght@300&display=swap");
+
+html,
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    height: 100%;
+    background-image: url("https://i.postimg.cc/sxY2JQ63/Background-maior.png");
+    background-size: cover;
+
+}
+
+/* --------------- Navigation Bar ------------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #921eff7c;
+    height: 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    width: 100%;
+}
+
+.logo{
+    padding-left: 30px;
+    position: relative;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 190px;
+
+}
+
+  li{
+    margin-right: 40px;
+}
+
+.underline:hover {
+    border-bottom: 4px solid #cb94ff;
+
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration:none;
+    color:#b86cff;
+}   
+
+a:visited {color:#b86cff;}
+
+a:hover {color:#cb94ff;
+}
+
+a:active {color:#cb94ff;} 
+
+.barrasearch{
+    padding-left: 10px;
+    width: 140px;
+    height: 40px;
+
+    background-color: #b86cff00;
+    color:#b86cff ;
+    
+    font-family: "Oswald", sans-serif;
+    border: 2px solid #7a00ec;
+    border-radius: 15px;
+}
+
+.barrasearch:focus {
+    border-color: #b86cff;
+    outline: none;
+}
+
+.barrasearch::placeholder{
+    color: #b86cff;
+}
+
+/* --------------- Main Content ------------- */
+
+main{
+    height: 1080px;
+
+}
+
+.nomejogo{
+   color: #b86cff; 
+   position: relative;
+   top: 60px;
+   left: 500px;
+   font-size: 22px;
+}
+
+.Jogo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+.divbaixo{
+    background-color: #5904a8 ;
+    color: #b86cff;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    border: 2px solid #bf7aff;
+    border-radius: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.desc{
+    position: relative;
+    right: 80px;
+}
+
+.desc1{
+    padding-right: 0px;
+    text-align: justify;
+    position: relative;
+    right: 185px;
+}
+
+.controle{
+    position: relative;
+    left: 100px;
+}
+
+.teclado{
+   position: relative;
+   top: 30px; 
+   right: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    margin-top: -150px;
+    padding: 26px 60px;
+  
+    color: #b86cff;
+    background-color: #7a00ec83;
+  }
+  
+  .useful {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .info {
+    margin: 0;
+    padding-bottom: 12px;
+  }
+  .info:hover{
+    color: #cb94ff;
+  }
+  .insta:hover{
+    content: url("https://i.postimg.cc/v1SsrfvD/87390.png");
+    width:30px;
+    height: 30px;
+  
+  }
+  .twitter:hover{
+    content: url("https://i.postimg.cc/xJJSt8s5/Twitter-logo.png");
+    width:30px;
+    height: 25px;
+  
+  }
+  .address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .address > p {
+    margin: 0;
+    padding-bottom: 0px;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .social > p {
+    margin: 0;
+    padding-bottom: 12px;
+  }
+  
+  .icon {
+    margin: 4px 0;
+  }
+
+
